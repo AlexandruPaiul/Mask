@@ -21,6 +21,7 @@ main {
     box-sizing: border-box;
     display: block;
     padding: 0;
+    
 } 
 
 img {
@@ -33,6 +34,7 @@ img {
 }
 
   .info {
+    margin-top: 80px;
     position: absolute;
     top: 50px;
     left: 45%;
