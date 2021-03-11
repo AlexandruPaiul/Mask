@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px darkgray;
+  display: flex;
+  padding: 10px;
+}
+
+.navbar > ul {
+  display: flex;
+  padding-top: 15px;
+  position: relative;
+}
+
+.navbar li {
+  padding: 0px 30px;
+  list-style: none;
+}
+
+.navbar li > a {
+  text-decoration: none;
+  color: #111;
+  align-content: center;
+}
+
+.navbar ul li > a:hover {
+  color: grey;
+  font-size: 1.3em;
+}
+
+a:hover i {
+  color: coral;
+  font-size: 1.5em;
+}
+
+/* ====================================================== SUB NAV == = = = = = ==================================== */
+
+.subnav1 ul,
+.subnav2 ul {
+  display: none;
+  position: absolute;
+}
+
+.subnav1:hover ul,
+.subnav2:hover ul {
+  background: #f5f5f5;
+  padding: 10px 0;
+  height: 200px;
+  width: 25%;
+  box-shadow: 0px 1px 5px white;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.subnav1:hover ul > li {
+  border-bottom: 1px solid rgba(250, 172, 4, 0.3);
+  padding: 20px 0px 20px 10px;
+}
